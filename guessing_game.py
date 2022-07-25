@@ -17,7 +17,6 @@ def start_game(game_attempts):
     attempts = 0
     # A random number should be chosen that is within the range of 1 - 100.
     random_num = random.randint(1, 100)
-    print(random_num)
     # As a player of the game, I should see some kind of text header, welcome, or game intro message
     # show the current best score
     if game_attempts != []:
